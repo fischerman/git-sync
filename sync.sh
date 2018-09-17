@@ -1,6 +1,6 @@
-#!/bin/bash
+#!/bin/sh
 
-set -e
+set -ex
 
 git config --global http.sslVerify false
 git clone $REPO /content
